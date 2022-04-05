@@ -16,3 +16,9 @@ body {
 .frame {
     border-radius: 15px !important;
 }
+
+.wallet_img {
+    width: 100%;
+    max-width: 85px;
+    height: auto;
+}
