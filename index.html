@@ -5,11 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/cirrus-ui">
+    <link rel="stylesheet" href="style.css">
     <title>Donate</title>
 </head>
 
 <body>
-    <div class="DePayButton" label="Donate" widget="Donation" configuration='{"accept":[{"blockchain": "ethereum","token": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE","receiver": "0xfc140c7834a73de27f69412b8c2a27124683596b"},{"blockchain":"ethereum","token": "0xdAC17F958D2ee523a2206206994597C13D831ec7","receiver": "0xfc140c7834a73de27f69412b8c2a27124683596b"}]}'></div>
+    <div class="u-flex u-center h-100p">
+        <div class="intro-card frame px-3 py-4">
+            <div class="frame__body">
+                <div class="u-flex u-center">
+                    <img src="./2913091.png" class="logo" />
+                </div>
+                <h3><span></span>Donation<span class="info text-primary">for @swkeep</span></h3>
+                <p>Thank you for your most generous donation!</p>
+                <p>We are so fortunate to have caught the attention of people like you.</p>
+                <div class="u-overflow-hidden bg-white u-round-sm u-shadow-xl mx-2 my-8 u-flex u-flex-column u-flex-row-sm">
+
+                    <img src="./ethereum-wallet.png" style="max-width: 15%;">
+
+                    <div class="sec">
+                        <p>Wallet address</p>
+                        <li style="list-style: none;">Ether: 0xFC140C7834a73de27F69412b8c2a27124683596b </li>
+                    </div>
+                </div>
+                <ul>
+                </ul>
+
+                <div class="divider"></div>
+                <div class="u-flex u-justify-center">
+                    <div class="DePayButton" label="Donate" widget="Donation" configuration='{"accept":[{"blockchain": "ethereum","token": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE","receiver": "0xfc140c7834a73de27f69412b8c2a27124683596b"},{"blockchain":"ethereum","token": "0xdAC17F958D2ee523a2206206994597C13D831ec7","receiver": "0xfc140c7834a73de27f69412b8c2a27124683596b"}]}'></div>
+
+                </div>
+                <div class="space"></div>
+            </div>
+        </div>
+    </div>
     <script src="https://integrate.depay.fi/buttons/v6.js"></script>
     <noscript><a href="https://depay.fi">Web3 Payments</a> are currently not supported without JavaScript enabled.</noscript>
     <script>
